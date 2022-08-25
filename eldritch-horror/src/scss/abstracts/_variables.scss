@@ -4,6 +4,10 @@
 
 /// Regular font family
 /// @type List
+$font-primary: 'Aleo', serif;
+
+/// Regular font family
+/// @type List
 $text-font-stack: 'Open Sans', 'Helvetica Neue Light', 'Helvetica Neue',
   'Helvetica', 'Arial', sans-serif !default;
 
@@ -75,7 +79,7 @@ $dark-grey: rgb(68, 68, 68) !default;
 
 /// Container's maximum width
 /// @type Length
-$max-width: 1440px !default;
+$max-width: 100eh !default;
 $container-padding: 120px !default;
 $padding-edge-screen: 15px !default; // отступ от края экрана мобильных устройств
 

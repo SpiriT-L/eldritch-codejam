@@ -32,6 +32,15 @@
 //   }
 // }
 
+@mixin title {
+  font: {
+    family: $font-primary;
+    size: 20px;
+    weight: bold;
+  }
+  color: #d9c01c;
+}
+
 @mixin large-text {
   font: {
     family: Arial;

@@ -6,8 +6,8 @@ body {
   font: normal 125% / 1.4 $text-font-stack;
 }
 
-.title-h1 {
-  @include text-title-h1;
+.title {
+  @include title;
   margin: 0px 0px 32px 0px;
   @media (max-width: $md){
   display: none;
