@@ -1,12 +1,16 @@
 .mythic-cards {
   flex: 1 1 0;
   order: 3;
+  &__block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   &__wrapper {
     display: flex;
   }
 }
 .stages {
-
   &__title {
     font-size: 2em;
     margin: 15px 0px 15px 0px;
@@ -16,11 +20,10 @@
 .stage {
   display: flex;
   flex-direction: column;
-  align-items:center;
+  align-items: center;
   &__title {
     font-size: 1.4em;
     margin: 15px 0px 15px 0px;
-
   }
 }
 
@@ -42,7 +45,7 @@
 }
 
 .dot-green {
-  background-color:#3b5f1b;
+  background-color: #3b5f1b;
 }
 
 .dot-yellow {
